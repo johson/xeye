@@ -45,7 +45,6 @@ func main() {
 			return
 		}
 
-		log.Println(json.NewDecoder(r.Body).Encode())
 		fmt.Printf("%+v\n", face)
 		fmt.Println("<<<<<<<<<<<<<<<<<Ending of a packet<<<<<<<<<<<<<<<<<<<")
 	})
